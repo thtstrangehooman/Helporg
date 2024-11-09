@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>HELPORG</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #E6F7F5; /* Calming light teal color */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">HELPORG</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a class="text-gray-600 hover:text-blue-600" href="#home">Home</a></li>
+                    <li><a class="text-gray-600 hover:text-blue-600" href="#about">About</a></li>
+                    <li><a class="text-gray-600 hover:text-blue-600" href="#resources">Resources</a></li>
+                    <li><a class="text-gray-600 hover:text-blue-600" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+        <section id="home" class="mb-12 text-center">
+            <h2 class="text-3xl font-bold text-blue-600 mb-4">Welcome to Your Mental Health Resource</h2>
+            <p class="text-gray-600">Find articles, tools, and resources to help you manage your mental health.</p>
+        </section>
+        <section id="about" class="mb-12">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-blue-600 mb-4">About Us</h2>
+                <p class="text-gray-600">Our mission is to provide accessible and reliable mental health resources to everyone. We believe in the power of knowledge and support to improve mental well-being.</p>
+            </div>
+        </section>
+        <section id="resources" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img alt="A serene landscape with mountains and a lake" class="w-full h-40 object-cover rounded-t-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/WKZRqIzpwsbyO1zUy1rFIvMrAEJSOZKuFRX2aPHwDwRVNd7E.jpg" width="600"/>
+                <h3 class="text-xl font-bold text-blue-600 mb-2">Understanding Anxiety</h3>
+                <p class="text-gray-600 mb-4">Learn about the symptoms, causes, and treatments for anxiety.</p>
+                <a class="text-blue-600 hover:underline" href="https://www.medicalnewstoday.com/articles/323454">Read more</a>
+            </article>
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img alt="A person meditating in a peaceful environment" class="w-full h-40 object-cover rounded-t-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/wmPy9LbzEEJmE901YpIlX51mDzsf9L4fyo4vJFspoPka10tTA.jpg" width="600"/>
+                <h3 class="text-xl font-bold text-blue-600 mb-2">Meditation Techniques</h3>
+                <p class="text-gray-600 mb-4">Discover different meditation techniques to help you relax and focus.</p>
+                <a class="text-blue-600 hover:underline" href="https://www.mindful.org/how-to-meditate/">Read more</a>
+            </article>
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img alt="A group of people in a support group setting" class="w-full h-40 object-cover rounded-t-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/KUfDy5Smd23tbCF7upDou0EOqgfDzLsQVhi4MxxEQ0Hd10tTA.jpg" width="600"/>
+                <h3 class="text-xl font-bold text-blue-600 mb-2">Support Groups</h3>
+                <p class="text-gray-600 mb-4">Find support groups in your area to connect with others who understand.</p>
+                <a class="text-blue-600 hover:underline" href="https://www.heypeers.com/">Read more</a>
+            </article>
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img alt="A person writing in a journal" class="w-full h-40 object-cover rounded-t-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/rJFhKiTWeIzkOi2fyfFnaZ08pcNYpmEC7QrXcQlKdz78qpbnA.jpg" width="600"/>
+                <h3 class="text-xl font-bold text-blue-600 mb-2">Journaling for Mental Health</h3>
+                <p class="text-gray-600 mb-4">Learn how journaling can help you process your thoughts and emotions.</p>
+                <a class="text-blue-600 hover:underline" href="https://www.urmc.rochester.edu/encyclopedia/content.aspx?ContentID=4552&ContentTypeID=1">Read more</a>
+            </article>
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img alt="A person practicing yoga" class="w-full h-40 object-cover rounded-t-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/virxNUMFs94DB1sfu0Cv6YVo1Jde5eYFKJgOAofGSqbfqmudC.jpg" width="600"/>
+                <h3 class="text-xl font-bold text-blue-600 mb-2">Yoga for Stress Relief</h3>
+                <p class="text-gray-600 mb-4">Explore yoga poses and practices that can help reduce stress.</p>
+                <a class="text-blue-600 hover:underline" href="https://www.healthline.com/health/fitness/yoga-for-stress">Read more</a>
+            </article>
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img alt="A person talking to a therapist" class="w-full h-40 object-cover rounded-t-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/ei2ekCjZwPlg2URh6QI9C2E7swtGO2KqbWjUBqyp62lZ10tTA.jpg" width="600"/>
+                <h3 class="text-xl font-bold text-blue-600 mb-2">Finding a Therapist</h3>
+                <p class="text-gray-600 mb-4">Tips and resources for finding a therapist that fits your needs.</p>
+                <a class="text-blue-600 hover:underline" href="https://www.healthline.com/health/how-to-find-a-therapist">Read more</a>
+            </article>
+        </section>
+        <section id="contact" class="mb-12">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-blue-600 mb-4">Contact Us</h2>
+                <p class="text-gray-600 mb-4">Have questions or need support? Reach out to us.</p>
+                <form class="max-w-lg mx-auto">
+                    <div class="mb-4">
+                        <label class="block text-gray-600 mb-2" for="name">Name</label>
+                        <input class="w-full px-3 py-2 border border-gray-300 rounded-lg" id="name" name="name" type="text"/>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-600 mb-2" for="email">Email</label>
+                        <input class="w-full px-3 py-2 border border-gray-300 rounded-lg" id="email" name="email" type="email"/>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-600 mb-2" for="message">Message</label>
+                        <textarea class="w-full px-3 py-2 border border-gray-300 rounded-lg" id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white shadow-md mt-12">
+        <div class="container mx-auto px-4 py-6 text-center">
+            <p class="text-gray-600">© 2024 HELPORG. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
